@@ -1,0 +1,135 @@
+.img-logo{
+    width: 100px;
+}
+.navbar-links{
+    justify-content: center;
+    margin-top: 20px;
+    display: block;
+    padding: auto;
+
+}
+.navbar-links a{
+    color: rgb(35, 104, 0);
+    border-right: 1px solid;
+    padding-right: 10px;
+    display: block;
+}
+#slider img{
+    width: 100%;
+    height: 50vh;
+    margin-top: 5px;
+}
+.historia {
+    width: 100%;
+    display: block;
+    margin: 5px;
+    padding: 0px  4px;
+    border: 1px solid #2fff00;
+    border-radius: 10px;
+}
+#historia-img{
+    width:50%;
+    background: rgb(141, 211, 12);
+    margin-top: 2px;
+
+}
+#historia-content {
+    width: 90%;
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    padding: auto;
+}
+.produto {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 4px;
+    text-align: center;
+}
+.produto-img {
+    width: 80%;
+    padding: 6px;
+    background-image: linear-gradient(
+        45deg,
+        rgb(71, 47, 8),
+        rgb(123, 94, 17),
+        rgb(131, 97, 4),
+        rgb(71, 47, 8)
+    )  ;
+    border-radius: 4px;
+    margin-left: 10%;
+}
+.produto-img img{
+   width: 100%;
+   height: 200px;
+   border-radius: 5px;
+   padding-top: 2px;
+}
+
+.passos-compra{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    padding: 4px;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+#avaliacoes{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 5px;
+}
+.novidade {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.novidade  img{
+    width: 70%;
+    padding: 5px;
+}
+.novidade  p{
+    font-size: larger;
+    width: 90%;
+    padding: 5px;
+    text-align: justify;
+} 
+#informacoes-adicionais {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 17px;
+    padding: 10px;
+
+} 
+.beneficios {
+    border: 1px solid #2fff00;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.acopanhamentos p{
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20px;
+}
+#formulario input{
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    font-size: 1rem;
+    text-justify: auto;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+#formulario input:hover{
+    border-radius: 5px;
+    width: 84%;
+    height: 30px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1.4rem;
+}
+.footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
