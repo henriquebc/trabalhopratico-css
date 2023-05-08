@@ -6,11 +6,14 @@
     border: 1px solid #2fff00;
     border-radius: 10px;
 }
+.explicacao-historia{
+    display: block;
+}
+
 .produto {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    text-align: center;
     padding: 4px;
 }
 #sobre-empresa{

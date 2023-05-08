@@ -44,7 +44,6 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     padding: 4px;
-    text-align: center;
 }
 .produto-img {
     width: 80%;

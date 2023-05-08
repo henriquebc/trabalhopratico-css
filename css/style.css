@@ -161,11 +161,16 @@ li {
     border: 1px solid #2fff00;
     border-radius: 10px;
 }
+.explicacao-historia{
+    display: flex;
+    flex-direction: row;
+}
 #historia-img{
-    width:30%;
+    width:300px;
+    height: 300px;
     background: rgb(141, 211, 12);
-    display: inline-block;
-    margin-top: 2px;
+    display: inline;
+    margin-top: 20px;
 
 }
 #historia-content {
@@ -182,8 +187,6 @@ li {
 .produto {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    align-self: center;
-    justify-items: center;
     padding: 4px;
 }
 .produto-img {
@@ -522,4 +525,7 @@ li {
 }
 .footer p{
     margin-top: 10px;
+}
+.footer a{
+    color: #133f09;
 }
