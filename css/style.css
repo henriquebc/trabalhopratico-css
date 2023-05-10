@@ -5,7 +5,7 @@
     margin: 0;
     font-family:'Times New Roman', Times, serif;
 }
-.body-background{
+body{
     background: rgb(240, 240, 163);
 }
 
@@ -132,6 +132,11 @@ li {
     text-align: center;
 
 }
+.navbar-mobile{
+    display: none;
+}
+
+ 
 #slider{
     width: 100%;
     justify-content: center;
@@ -164,21 +169,17 @@ li {
 .explicacao-historia{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #historia-img{
-    width:300px;
-    height: 300px;
+    width:30%;
+    height: fit-content;
     background: rgb(141, 211, 12);
-    display: inline;
-    margin-top: 20px;
 
 }
 #historia-content {
     width: 65%;
-    display: inline-block;
-    margin: 5px;
-    padding: 20px;
-    padding: auto;
+    padding: 10px;
 }
 
 .produtos {
@@ -187,7 +188,8 @@ li {
 .produto {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    padding: 4px;
+    grid-column-gap: 20px;
+
 }
 .produto-img {
     width: 100%;
@@ -481,7 +483,7 @@ li {
     margin: 5px;
 }
 .bebidas {
-    border: 1px solid #6700c6;
+    border: 1px solid #2fff00;
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5rem;
@@ -493,7 +495,7 @@ li {
 }
 
 .alimentos {
-    border: 1px solid #2e00d6;
+    border: 1px solid #2fff00;
     padding: 10px;
     border-radius: 10px;
     font-size: 1.5rem;
@@ -502,7 +504,7 @@ li {
 }
 
 .excesso {
-    border: 1px solid #8a0e0e;
+    border: 1px solid #2fff00;
     border-radius: 10px;
     padding: 10px;
     
